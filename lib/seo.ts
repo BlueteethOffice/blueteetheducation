@@ -17,7 +17,7 @@ export function generateOrganizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'editorial and patient education inquiries',
-      email: 'editorial@blueteetheducation.com',
+      email: 'support@blueteeth.in',
       availableLanguage: ['English']
     }
   };

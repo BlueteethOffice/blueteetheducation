@@ -53,7 +53,7 @@ export default function ContactPage() {
               <div className="pt-2 text-xs text-slate-700 space-y-2">
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4 text-teal-600" />
-                  <span className="font-medium">editorial@blueteetheducation.com</span>
+                  <span className="font-medium">support@blueteeth.in</span>
                 </div>
               </div>
             </div>

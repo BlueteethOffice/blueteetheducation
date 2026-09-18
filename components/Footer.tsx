@@ -48,7 +48,7 @@ export default function Footer() {
             <div className="pt-2 text-xs text-slate-400 space-y-1.5">
               <div className="flex items-center space-x-2">
                 <Mail className="w-3.5 h-3.5 text-teal-400" />
-                <span>Editorial Desk: editorial@blueteetheducation.com</span>
+                <span>Editorial Desk: support@blueteeth.in</span>
               </div>
               <div className="flex items-center space-x-2">
                 <HeartHandshake className="w-3.5 h-3.5 text-teal-400" />
