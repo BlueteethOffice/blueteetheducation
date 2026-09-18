@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased selection:bg-teal-100 selection:text-teal-900;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+/* Hide scrollbar for category tabs while maintaining scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Prose refinements for rich dental education content */
+.article-prose h2 {
+  @apply text-2xl sm:text-3xl font-bold text-slate-900 mt-10 mb-4 pt-6 border-t border-slate-200/80;
+}
+
+.article-prose h3 {
+  @apply text-xl font-bold text-slate-800 mt-6 mb-3;
+}
+
+.article-prose p {
+  @apply text-slate-700 text-base sm:text-lg leading-relaxed mb-4;
+}
+
+.article-prose ul {
+  @apply list-disc list-outside ml-6 space-y-2 text-slate-700 mb-6;
+}
+
+.article-prose ol {
+  @apply list-decimal list-outside ml-6 space-y-2 text-slate-700 mb-6;
+}
+
+.article-prose strong {
+  @apply text-slate-900 font-semibold;
+}
